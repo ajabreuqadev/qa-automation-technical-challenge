@@ -6,3 +6,4 @@ jmeter-results/*.jtl
 jmeter-results/*.log
 .env
 .DS_Store
+jmeter.log
