@@ -1,0 +1,8 @@
+node_modules/
+playwright-report/
+test-results/
+.jmeter/
+jmeter-results/*.jtl
+jmeter-results/*.log
+.env
+.DS_Store
