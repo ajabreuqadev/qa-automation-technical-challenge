@@ -1,5 +1,7 @@
 # QA Automation Technical Assessment
 
+[![Playwright Tests](https://github.com/ajabreuqadev/qa-automation-technical-challenge/actions/workflows/playwright.yml/badge.svg)](https://github.com/ajabreuqadev/qa-automation-technical-challenge/actions/workflows/playwright.yml)
+
 ## Project Overview
 
 This repository demonstrates a compact QA automation solution for three complementary test layers:
@@ -145,7 +147,37 @@ The committed JMeter statistics also record an average response time of approxim
 
 ## AI Usage Disclosure
 
-AI assistance was used to propose project and documentation structure, generate implementation examples, and review code and configuration. The developer subsequently reviewed the suggested content and executed the relevant tests. This disclosure does not claim corrections, decisions, or validations beyond those evidenced in the repository and recorded results.
+AI tools (ChatGPT and Codex) were used as development assistants throughout this technical assessment.
+
+What I asked AI to help with:
+
+Suggesting a simple Playwright and TypeScript project structure using Page Object Model.
+
+Providing examples for E2E testing, REST API validation, and JMeter configuration.
+
+Assisting with the GitHub Actions workflow and README documentation.
+
+What I accepted:
+
+The separation of page objects and test scenarios.
+
+The API CRUD test structure with token-based authentication.
+
+The GitHub Actions configuration for automated test execution.
+
+Documentation improvements that made the project easier to understand and reproduce.
+
+What I reviewed and adjusted:
+
+Checked the consistency between Page Object methods and test implementations.
+
+Reviewed Git configuration, commit history, and repository contents.
+
+Adjusted the handling of JMeter reports and generated log files.
+
+Reviewed test results and verified successful execution locally and through GitHub Actions.
+
+My approach: I used AI to accelerate implementation, while reviewing the generated code, executing the tests, and checking the results. AI suggestions were not treated as verified solutions without validation.
 
 ## Development Time
 
